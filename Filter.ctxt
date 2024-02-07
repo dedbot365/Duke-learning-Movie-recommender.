@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=Filter
+comment0.text=\r\n\ The\ Filter\ interface\ represents\ a\ filter\ used\ to\ select\ items\ based\ on\ certain\ criteria.\r\n\ \r\n\ This\ interface\ declares\ a\ single\ method,\ satisfies,\ which\ takes\ a\ String\ parameter\r\n\ representing\ an\ item\ and\ returns\ true\ if\ the\ item\ satisfies\ the\ filter\ criteria,\r\n\ and\ false\ otherwise.\r\n\ \r\n\ Implementing\ classes\ provide\ specific\ filter\ criteria\ and\ logic\ within\ the\ satisfies\ method.\r\n\ \r\n\ @author\ Subigyan\ Paudel\r\n\ @version\ 2024-02-07\r\n
+comment1.params=var1
+comment1.target=boolean\ satisfies(java.lang.String)
+numComments=2

@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=ThirdRatings
+comment0.text=\r\n\ The\ ThirdRatings\ class\ represents\ a\ system\ for\ calculating\ movie\ ratings\r\n\ based\ on\ data\ from\ raters.\ It\ provides\ methods\ to\ get\ the\ number\ of\ raters,\r\n\ calculate\ average\ ratings\ for\ movies,\ and\ calculate\ average\ ratings\r\n\ for\ movies\ that\ satisfy\ a\ given\ filter\ criteria.\r\n\ \r\n\ Example\ usage\:\r\n\ ThirdRatings\ thirdRatings\ \=\ new\ ThirdRatings("ratings.csv");\r\n\ int\ numRaters\ \=\ thirdRatings.getRaterSize();\r\n\ int\ minimalRaters\ \=\ 5;\r\n\ ArrayList<Rating>\ averageRatings\ \=\ thirdRatings.getAverageRatings(minimalRaters);\r\n\ ArrayList<Rating>\ filteredRatings\ \=\ thirdRatings.getAverageRatingsByFilter(minimalRaters,\ filter);\r\n\ \r\n\ This\ class\ utilizes\ the\ FirstRatings\ class\ to\ load\ raters'\ data.\r\n\ \r\n\ @author\ [Author\ Name]\r\n\ @version\ [Today's\ Date]\r\n
+comment1.params=
+comment1.target=ThirdRatings()
+comment2.params=ratingFile
+comment2.target=ThirdRatings(java.lang.String)
+comment3.params=
+comment3.target=int\ getRaterSize()
+comment4.params=movieID\ minimalRaters
+comment4.target=double\ getAverageByID(java.lang.String,\ int)
+comment5.params=minimalRaters
+comment5.target=java.util.ArrayList\ getAverageRatings(int)
+comment5.text=\r\n\ Note\ that\ myMovies\ no\ longer\ exists.\ Instead,\ you\u2019ll\ need\ to\ get\ all\ the\ movies\r\n\ from\ the\ MovieDatabase\ class\ and\ store\ them\ in\ an\ ArrayList\ of\ movie\ IDs.\r\n\ Thus,\ you\ will\ need\ to\ modify\ getAverageRatings\ to\ call\ MovieDatabase\r\n\ with\ a\ filter,\ and\ in\ this\ case\ you\ can\ use\ the\ TrueFilter\ to\ get\ every\ movie.\r\n
+comment6.params=minimalRaters\ f
+comment6.target=java.util.ArrayList\ getAverageRatingsByFilter(int,\ Filter)
+comment6.text=\r\n\ write\ a\ public\ helper\ method\ named\ getAverageRatingsByFilter\ that\ has\r\n\ two\ parameters,\ an\ int\ named\ minimalRaters\ for\ the\ minimum\ number\ of\r\n\ ratings\ a\ movie\ must\ have\ and\ a\ Filter\ named\ filterCriteria.\ This\ method\r\n\ should\ create\ and\ return\ an\ ArrayList\ of\ type\ Rating\ of\ all\ the\ movies\r\n\ that\ have\ at\ least\ minimalRaters\ ratings\ and\ satisfies\ the\ filter\ criteria.\r\n\ This\ method\ will\ need\ to\ create\ the\ ArrayList\ of\ type\ String\ of\ movie\ IDs\r\n\ from\ the\ MovieDatabase\ using\ the\ filterBy\ method\ before\ calculating\ those\ averages.\r\n
+comment7.params=args
+comment7.target=void\ main(java.lang.String[])
+numComments=8

@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=FirstRatings
+comment0.text=\r\n\ \ Name\:\ \ \ \ subu\r\n\r\n\r\n\ \ Description\:\ \ -------------------STEP\ ONE--------\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ In\ this\ exercise,\ you\ will\ use\ the\ provided\ classes\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ Movie.java,\ Rating.java,\ and\ Rater.java\ and\ read\ in\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ and\ store\ information\ about\ movies\ and\ ratings\ of\ movies\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ by\ different\ movie\ raters\ to\ answer\ simple\ questions\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ about\ both\ movies\ and\ ratings.\r\n\r\n
+comment1.params=fileName
+comment1.target=java.util.ArrayList\ loadMovies(java.lang.String)
+comment2.params=
+comment2.target=void\ testLoadMovies()
+comment3.params=fileName
+comment3.target=java.util.ArrayList\ loadRaters(java.lang.String)
+comment4.params=
+comment4.target=void\ testLoadRaters()
+comment5.params=args
+comment5.target=void\ main(java.lang.String[])
+numComments=6

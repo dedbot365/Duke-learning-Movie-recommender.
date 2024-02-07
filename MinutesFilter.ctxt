@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=MinutesFilter
+comment0.text=\r\n\ The\ MinutesFilter\ class\ implements\ the\ Filter\ interface\ to\ filter\ movies\ based\ on\ their\ duration\r\n\ falling\ within\ a\ specified\ range\ of\ minutes.\r\n\ \r\n\ Example\ usage\:\r\n\ MinutesFilter\ filter\ \=\ new\ MinutesFilter(90,\ 120);\r\n\ ArrayList<String>\ filteredMovies\ \=\ MovieDatabase.filterBy(filter);\r\n\ \r\n\ This\ class\ provides\ a\ method\ to\ check\ if\ a\ movie\ satisfies\ the\ filter\ criteria\ based\ on\ its\ duration.\r\n\ It\ implements\ the\ satisfies\ method\ defined\ in\ the\ Filter\ interface\ to\ determine\ if\ a\ movie's\ duration\r\n\ falls\ within\ the\ specified\ range.\r\n\ \r\n\ The\ constructor\ of\ MinutesFilter\ initializes\ the\ minimum\ and\ maximum\ duration\ values\ for\ filtering.\r\n\ \r\n\ @author\ Subigyan\ Paudel\r\n\ @version\ 2024-02-07\r\n
+comment1.params=min\ max
+comment1.target=MinutesFilter(int,\ int)
+comment2.params=id
+comment2.target=boolean\ satisfies(java.lang.String)
+numComments=3

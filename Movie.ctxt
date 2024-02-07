@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.target=Movie
+comment0.text=\r\n\ The\ Movie\ class\ represents\ a\ movie\ with\ various\ attributes\ such\ as\ ID,\ title,\ year,\ genres,\ director,\ country,\ poster\ URL,\ and\ duration.\r\n\ \r\n\ Example\ usage\:\r\n\ Movie\ movie\ \=\ new\ Movie("tt1234567",\ "The\ Shawshank\ Redemption",\ "1994",\ "Drama");\r\n\ String\ id\ \=\ movie.getID();\r\n\ String\ title\ \=\ movie.getTitle();\r\n\ int\ year\ \=\ movie.getYear();\r\n\ String\ genres\ \=\ movie.getGenres();\r\n\ String\ country\ \=\ movie.getCountry();\r\n\ String\ director\ \=\ movie.getDirector();\r\n\ String\ poster\ \=\ movie.getPoster();\r\n\ int\ minutes\ \=\ movie.getMinutes();\r\n\ \r\n\ This\ class\ provides\ constructors\ to\ create\ a\ Movie\ object\ with\ different\ sets\ of\ attributes,\ and\ methods\ to\ access\ the\ attributes\ of\ a\ movie\ and\ a\ toString\ method\ for\ string\ representation\ of\ a\ movie.\r\n\ \r\n\ @author\ Subigyan\ Paudel\r\n\ @version\ 2024-02-07\r\n
+comment1.params=anID\ aTitle\ aYear\ theGenres
+comment1.target=Movie(java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String)
+comment10.params=
+comment10.target=int\ getMinutes()
+comment11.params=
+comment11.target=java.lang.String\ toString()
+comment2.params=anID\ aTitle\ aYear\ theGenres\ aDirector\ aCountry\ aPoster\ theMinutes
+comment2.target=Movie(java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ int)
+comment3.params=
+comment3.target=java.lang.String\ getID()
+comment4.params=
+comment4.target=java.lang.String\ getTitle()
+comment5.params=
+comment5.target=int\ getYear()
+comment6.params=
+comment6.target=java.lang.String\ getGenres()
+comment7.params=
+comment7.target=java.lang.String\ getCountry()
+comment8.params=
+comment8.target=java.lang.String\ getDirector()
+comment9.params=
+comment9.target=java.lang.String\ getPoster()
+numComments=12
